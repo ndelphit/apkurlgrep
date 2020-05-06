@@ -3,10 +3,12 @@ Tool that allow extract endpoints from APK files
 
 
 ## Install
-
+1) Install `apkurlgrep`
 ```
 ▶ go get -u github.com/ndelphit/apkurlgrep
 ```
+2) Install [apktool](https://ibotpeaches.github.io/Apktool/install/)
+
 
 ## Usage
 
