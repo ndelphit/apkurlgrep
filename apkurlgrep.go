@@ -1,5 +1,5 @@
 /*
- with love by @ndelphit 5/2020
+ made with love by @ndelphit 5/2020
 */
 
 package main
@@ -18,7 +18,7 @@ import (
 
 func main() {
 
-	parser := argparse.NewParser("apkurlgrep", "ApkUrlGrep")
+	parser := argparse.NewParser("apkurlgrep", "ApkUrlGrep - Extract endpoints from APK files")
 	apk := parser.String("a", "apk", &argparse.Options{Required: true, Help: "Input a path to APK file."})
 
 	err := parser.Parse(os.Args)
