@@ -1,16 +1,16 @@
 /*
- with love by @delphit 5/2020
+ with love by @ndelphit 5/2020
 */
 
 package main
 
 import (
-	"apkurlgreps/command/apktool"
-	dependency "apkurlgreps/command/dependency"
-	"apkurlgreps/directory"
-	"apkurlgreps/extractor"
 	"fmt"
 	"github.com/akamensky/argparse"
+	"github.com/ndelphit/apkurlgrep/command/apktool"
+	dependency "github.com/ndelphit/apkurlgrep/command/dependency"
+	"github.com/ndelphit/apkurlgrep/directory"
+	"github.com/ndelphit/apkurlgrep/extractor"
 	"os"
 )
 
@@ -18,7 +18,7 @@ import (
 
 func main() {
 
-	parser := argparse.NewParser("apkurlgreps", "AndroidLinksExtractor")
+	parser := argparse.NewParser("apkurlgrep", "ApkUrlGrep")
 	apk := parser.String("a", "apk", &argparse.Options{Required: true, Help: "Input a path to APK file."})
 
 	err := parser.Parse(os.Args)
