@@ -27,3 +27,9 @@ Result of URLs Paths:
 /admin
 /onboarding
 ```
+## Ideas
+Hey folks! 🙂
+
+Thank you for the interesting of this project! If you found any ideas about how to improve this tool - please write me a message on whoareme@wearehackerone.com or create new issues in Github Project.
+
+Have a nice day! 😉
