@@ -30,6 +30,6 @@ Result of URLs Paths:
 ## Ideas
 Hey folks! 🙂
 
-Thank you for the interesting of this project! If you found any ideas about how to improve this tool - please write me a message on whoareme@wearehackerone.com or create new issues in Github Project.
+Thank you for the interesting of this project! If you found any ideas about how to improve this tool - please write me a message on whoareme@wearehackerone.com or create new issues in this Github Project.
 
 Have a nice day! 😉
