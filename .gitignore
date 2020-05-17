@@ -10,6 +10,9 @@
 
 .idea/
 
+.DS_Store
+**/.DS_Store
+
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
